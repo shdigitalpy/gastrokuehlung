@@ -1,0 +1,141 @@
+.protection-wall {
+  padding-top: pxToRem(125);
+  padding-bottom: pxToRem(133);
+
+  .grid-wrapper {
+    gap: pxToRem(80);
+
+    .main-image {
+      width: pxToRem(550);
+      height: pxToRem(525);
+    }
+
+    .content-wrapper {
+
+      .title {
+        position: relative;
+        white-space: nowrap;
+        padding-bottom: pxToRem(30);
+        margin-bottom: pxToRem(30);
+
+        &:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          max-width: pxToRem(730);
+          height: pxToRem(1);
+          background-color: #848080;
+        }
+      }
+
+      .sub-title {
+        font-size: pxToRem(35);
+        line-height: pxToRem(45);
+        margin-bottom: pxToRem(15);
+      }
+
+      .description {
+        margin-bottom: pxToRem(10);
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      .contact-wrapper {
+        gap: pxToRem(30);
+        margin-top: pxToRem(45);
+
+        .mobile-number-wrapper {
+          gap: pxToRem(10);
+
+          .number {
+            font-size: pxToRem(22);
+            line-height: pxToRem(33);
+          }
+
+          .phone-icon {
+            width: pxToRem(45);
+            height: pxToRem(45);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media (max-width: $md-breakpoint) {
+  .protection-wall {
+    padding-top: pxToRem(220);
+    padding-bottom: pxToRem(240);
+
+    .grid-wrapper {
+      gap: pxToRem(120);
+
+      .main-image {
+        width: 100%;
+        height: 100%;
+      }
+
+      .content-wrapper {
+
+        .title {
+          position: relative;
+          white-space: normal;
+          padding-bottom: pxToRem(60);
+          margin-bottom: pxToRem(60);
+
+          &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            max-width: 100%;
+            height: pxToRem(3);
+            background-color: #848080;
+          }
+        }
+
+        .sub-title {
+          font-size: pxToRem(78);
+          line-height: pxToRem(110);
+          margin-bottom: pxToRem(50);
+        }
+
+        .description {
+          margin-bottom: pxToRem(30);
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+
+        .contact-wrapper {
+          gap: pxToRem(40);
+          margin-top: pxToRem(110);
+          margin-bottom: pxToRem(30);
+
+          .mobile-number-wrapper {
+            gap: pxToRem(20);
+
+            .number {
+              font-size: pxToRem(22);
+              line-height: pxToRem(33);
+            }
+
+            .phone-icon {
+              width: pxToRem(120);
+              height: pxToRem(120);
+            }
+          }
+        }
+      }
+    }
+  }
+}

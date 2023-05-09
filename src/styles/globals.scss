@@ -1,0 +1,147 @@
+@import "variables";
+@import "utils";
+@import "styles";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&family=Raleway:wght@400;600;700;800&display=swap');
+
+:root {
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth !important;
+  font-size: calcBaseVW($baseFont, $baseWidth);
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Manrope', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  line-height: pxToRem(21);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary;
+  font-family: 'Raleway', sans-serif;
+}
+
+a, p, small, span, label {
+  color: $gray;
+  font-weight: 400;
+  font-size: pxToRem($baseFont);
+  line-height: pxToRem(26);
+}
+
+img {
+  //width: 100%;
+}
+
+.btn, .btn-primary, .btn-secondary {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  font-weight: 600;
+  font-size: pxToRem(18);
+  line-height: pxToRem(27);
+  border-radius: pxToRem(5);
+  border: 1px solid;
+  padding: pxToRem(17) pxToRem(35);
+}
+
+.btn-primary {
+  color: $white;
+  border-color: $primary;
+  background-color: $primary;
+}
+
+.btn-secondary {
+  color: $primary;
+  border-color: $secondary;
+  background-color: $secondary;
+}
+
+.title {
+  color: $primary;
+  font-weight: 700;
+  font-size: pxToRem(44);
+  line-height: pxToRem(50);
+}
+
+.title-lg {
+  color: $primary;
+  font-weight: 700;
+  font-size: pxToRem(65);
+  line-height: pxToRem(78);
+}
+
+.title-secondary {
+  color: $secondary;
+  font-weight: 500;
+  font-size: pxToRem(22);
+  line-height: pxToRem(26);
+}
+
+@media (max-width: $md-breakpoint) {
+  html {
+    font-size: calcBaseVW(20, $baseWidth);
+  }
+
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .title {
+    font-size: pxToRem(100);
+    line-height: pxToRem(140);
+  }
+
+  .title-lg {
+    font-size: pxToRem(140);
+    line-height: pxToRem(170);
+  }
+
+  .title-secondary {
+    font-size: pxToRem(68);
+    line-height: pxToRem(80);
+  }
+
+  a, p, small, span, label {
+    font-size: pxToRem(60) !important;
+    line-height: pxToRem(98) !important;
+  }
+
+  .btn, .btn-primary, .btn-secondary {
+    font-size: pxToRem(64);
+    line-height: pxToRem(78);
+    border-radius: pxToRem(15);
+    padding: pxToRem(50) pxToRem(61);
+  }
+}

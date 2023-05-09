@@ -1,0 +1,58 @@
+.hero-banner {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  min-height: pxToRem(800);
+  padding-top: pxToRem(90);
+
+  &:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  }
+
+  .banner-bg {
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .content-wrapper {
+    z-index: 10;
+  }
+}
+
+
+
+@media (max-width: $md-breakpoint) {
+  .hero-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+    padding-top: pxToRem(120);
+
+    &:before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: 5;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    }
+
+    .banner-bg {
+      position: absolute;
+      inset: 0;
+      object-fit: cover;
+    }
+
+    .content-wrapper {
+      z-index: 10;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.why-us {
+
+  .title-wrapper {
+    margin-bottom: pxToRem(50);
+
+    .title {
+      margin-bottom: pxToRem(15);
+    }
+  }
+
+  .grid-wrapper {
+    gap: pxToRem(42);
+
+    .card {
+      overflow: hidden;
+      background-color: $white;
+      border-radius: pxToRem(5);
+      box-shadow: 0 15px 80px rgba(26, 38, 51, 0.05);
+
+      .image-wrapper {
+
+        .card-image {
+
+        }
+      }
+
+      .content-wrapper {
+        padding: pxToRem(31) pxToRem(35) pxToRem(62);
+
+        .card-title {
+          font-size: pxToRem(22);
+          line-height: pxToRem(35);
+          margin-bottom: pxToRem(10);
+        }
+
+        .description {
+
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: $md-breakpoint) {
+  .why-us {
+    padding-top: pxToRem(100);
+    padding-bottom: pxToRem(100);
+
+    .title-wrapper {
+      margin-bottom: pxToRem(100);
+
+      .title {
+        margin-bottom: pxToRem(15);
+      }
+    }
+
+    .grid-wrapper {
+      gap: pxToRem(100);
+
+      .card {
+        overflow: hidden;
+        background-color: $white;
+        border-radius: pxToRem(15);
+        box-shadow: 0 15px 80px rgba(26, 38, 51, 0.05);
+
+        .image-wrapper {
+
+          .card-image {
+            width: 100%;
+            object-fit: cover;
+            max-height: pxToRem(700);
+          }
+        }
+
+        .content-wrapper {
+          padding: pxToRem(62) pxToRem(70) pxToRem(100);
+
+          .card-title {
+            font-size: pxToRem(70);
+            line-height: pxToRem(86);
+            margin-bottom: pxToRem(40);
+          }
+
+          .description {
+
+          }
+        }
+      }
+    }
+  }
+}

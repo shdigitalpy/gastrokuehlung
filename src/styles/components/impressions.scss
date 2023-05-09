@@ -1,0 +1,55 @@
+.impressions {
+
+  .title {
+    margin-bottom: pxToRem(50);
+  }
+
+  .grid-wrapper {
+    gap: pxToRem(20);
+    flex-wrap: wrap;
+
+    .item {
+      width: pxToRem(350);
+
+      &.item-big {
+        width: pxToRem(580);
+      }
+
+      .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: $md-breakpoint) {
+  .impressions {
+
+    .title {
+      margin-bottom: pxToRem(50);
+    }
+
+    .grid-wrapper {
+      gap: pxToRem(20);
+      flex-wrap: wrap;
+
+      .item {
+        width: 49%;
+
+        &.item-big {
+          width: 100%;
+        }
+
+        .image {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

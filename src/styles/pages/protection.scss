@@ -1,0 +1,41 @@
+.protection-page {
+
+  .banner-content-wrapper {
+    max-width: pxToRem(945);
+    margin-left: auto;
+    margin-right: auto;
+
+    .title-lg {
+      color: $white;
+      margin-bottom: pxToRem(15);
+    }
+
+    .description {
+      font-size: pxToRem(20);
+      line-height: pxToRem(32);
+      color: #F5F8FA;
+      margin-bottom: pxToRem(45);
+    }
+  }
+}
+
+
+
+@media (max-width: $md-breakpoint) {
+  .protection-page {
+
+    .banner-content-wrapper {
+      max-width: 100%;
+
+      .title-lg {
+        color: $white;
+        margin-bottom: pxToRem(30);
+      }
+
+      .description {
+        color: #F5F8FA;
+        margin-bottom: pxToRem(100);
+      }
+    }
+  }
+}

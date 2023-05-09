@@ -1,0 +1,45 @@
+.home-page {
+
+  .banner-content-wrapper {
+    max-width: pxToRem(718);
+
+    .title-secondary {
+      margin-bottom: pxToRem(10);
+    }
+
+    .title-lg {
+      color: $white;
+      margin-bottom: pxToRem(15);
+    }
+
+    .description {
+      color: #F5F8FA;
+      margin-bottom: pxToRem(45);
+    }
+  }
+}
+
+
+
+@media (max-width: $md-breakpoint) {
+  .home-page {
+
+    .banner-content-wrapper {
+      max-width: 100%;
+
+      .title-secondary {
+        margin-bottom: pxToRem(20);
+      }
+
+      .title-lg {
+        color: $white;
+        margin-bottom: pxToRem(30);
+      }
+
+      .description {
+        color: #F5F8FA;
+        margin-bottom: pxToRem(80);
+      }
+    }
+  }
+}
