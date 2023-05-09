@@ -13,6 +13,8 @@ const MainLayout = ({ children }) => {
     const site = "https://www.gastrokuehlung.ch";
     const canonicalURL = site + useRouter().pathname;
 
+
+    
     return (
         <>
          <Head>
