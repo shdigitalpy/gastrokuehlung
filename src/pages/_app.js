@@ -6,6 +6,7 @@ import Router from "next/router";
 import ScrollToTop from "react-scroll-to-top";
 import { FiArrowUp } from 'react-icons/fi';
 
+
 const progress = new ProgressBar({
   size: 2,
   color: "#2F384E",
@@ -17,11 +18,18 @@ const red = ({
   color: "#2F384E",
 })
 
+
+
 Router.events.on("routeChangeStart", progress.start);
 Router.events.on("routeChangeComplete", progress.finish);
 Router.events.on("routeChangeError", progress.finish);
 
+
+
 export default function App({ Component, pageProps }) {
+
+
+  
   return (
       <MainLayout>
         <AnimatePresence>

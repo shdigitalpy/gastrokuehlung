@@ -8,6 +8,8 @@ import { useRouter } from "next/router";
 const name = 'GastroKuehlung'
 export const siteTitle = 'GastroKuehlung'
 
+
+
 const MainLayout = ({ children }) => {
 
     const site = "https://www.gastrokuehlung.ch";
@@ -18,6 +20,8 @@ const MainLayout = ({ children }) => {
     return (
         <>
          <Head>
+
+
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
@@ -34,6 +38,7 @@ const MainLayout = ({ children }) => {
         <link rel="canonical" href={canonicalURL} />
         <link rel="alternate" href={canonicalURL} hrefLang="de-ch" />
       </Head>
+      
             <Header />
             { children }
             <FramerMotionAnimation
