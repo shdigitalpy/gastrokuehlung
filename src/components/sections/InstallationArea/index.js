@@ -22,13 +22,13 @@ const InstallationArea = () => {
                             Bodenausführung: 0,8 mm V2A TB1, R11</span>
                     </p>
                     <p className="description">
-                        <span>1 Stck NK-Tür: 800 x 2000 mm, Din Links</span>
+                        <span>1 Stk. NK-Tür: 800 x 2000 mm, Din Links</span>
                         <span>Verriegelung: Euro 2000, Profilzylinder Türbander: 2 x Typ 7514, grau, steigend</span>
-                        <span>1 Stck. Wandaggregat KW 200-R452a (max. 11,1 m3)
+                        <span>1 Stk. Wandaggregat KW 200-R452a (max. 11,1 m3)
                             Optional: 1 Stck LED-Wand-/Deckenleuchte mit Bewegungssensor 20 Watt</span>
                     </p>
                     <p className="description">
-                        <span>1 Stck. Wandaggregat KW 200-R452a (max. 11,1 m3)</span>
+                        <span>1 Stk. Wandaggregat KW 200-R452a (max. 11,1 m3)</span>
                     </p>
                     <p className="description">
                         <span>Optional: 1 Stck LED-Wand-/Deckenleuchte mit Bewegungssensor 20 Watt</span>
