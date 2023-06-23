@@ -32,14 +32,11 @@ const FoodHygiene = () => {
                     </div>
 
                     <p className="description text-primary">
-                        Für Angebotsanfrage füllen Sie das
-                        <Link href={'#quotation-form'} className="underline text-dark px-1">Anfrageformular</Link>
-                        mit Ihren persönlichen Angaben aus.
+                        Für Angebotsanfrage klicken Sie auf Offerte anfragen. Gerne beraten wir Sie auch in einem persönlichen Gespräch.
+                        
                         
                     </p>
-                    <p className="description text-primary mb-0">
-                        Gerne beraten wir Sie in einem persönlichen Gespräch.
-                    </p>
+                   
 
                     <div className="contact-wrapper flex">
                         <Link href={'#quotation-form'} className="btn-secondary">Offerte anfragen</Link>

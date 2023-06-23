@@ -30,9 +30,9 @@ export default function Home() {
                         <h6 className="title-secondary">Willkommen</h6>
                         <h1 className="title-lg">Kühlzellen kaufen</h1>
                         <p className="description">
-                            In der heutigen professionellen Gastronomie ist eine optimale Kühlung von Lebensmitteln von
-                            größter Bedeutung. Die Qualität und Haltbarkeit der Produkte hängen von der richtigen Temperatur
-                            ab. Deshalb sollten Kühl- und Tiefkühlzellen in keinem Restaurant oder Hotelbetrieb fehlen.
+                            In der professionellen Gastronomie, für die Jagd oder für medizinsche Zwecke, eine optimale Kühlung ist in vielen Bereich von grosse Bedeutung.
+                            Die Qualität und Haltbarkeit der Produkte und Lebensmittel hängen von der richtigen Temperatur.
+                            ab. Deshalb sollten Kühl- und Tiefkühlzellen in keinem Restaurant oder Hotelbetrieb fehlen. Unsere Kühlzellen sind zudem für die Lagerung über einen längeren Zeitraum geeignet.
                         </p>
                         <Link href="/#features" className="btn-secondary">Mehr erfahren</Link>
                     </div>

@@ -6,7 +6,7 @@ import FramerMotionAnimation from "../../common/FramerMotionAnimation";
 
 const points = [
     {
-        text: 'Topprodukt zu fairen Preisen'
+        text: 'Qualitativ hochwertiges Produkt zu angemessenen Preisen'
     },
     {
         text: 'Korrekte Dämmdicke für den Schweizer Markt'
@@ -21,7 +21,7 @@ const points = [
         text: 'Mit oder ohne Kühlaggregat lieferbar'
     },
     {
-        text: 'Beratung von Ort'
+        text: 'Beratung von Ort falls gewünscht'
     },
 ]
 
