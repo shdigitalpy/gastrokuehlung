@@ -25,7 +25,7 @@ const WhyUs = () => {
                     </div>
                     <div className="content-wrapper">
                         <h6 className="card-title font-semibold">Unübertroffene Hygiene</h6>
-                        <p className="description">Der von CELLTHERM entwickelte CElastik Boden ist die ideale
+                        <p className="description">Der CElastik Boden ist die ideale
                             Lösung, wenn hoheAnsprüche an die Hygiene zu erfüllen sind.</p>
                     </div>
                 </FramerMotionAnimation>

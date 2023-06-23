@@ -43,7 +43,7 @@ export default function Home() {
                 <TopOffer />
                 <InstallationArea />
                 <WhyUs />
-                <VideoStrip thumbnail={thumbnailImg} videoUrl="https://www.youtube.com/embed/sV28YoBoLyU" />
+                <VideoStrip thumbnail={thumbnailImg} videoUrl="https://www.youtube.com/embed/BdmGfkeotL8" />
                 <Impressions />
                 <QuotationForm bg="gray" />
             </main>

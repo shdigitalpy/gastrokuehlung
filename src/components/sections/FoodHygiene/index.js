@@ -13,7 +13,7 @@ const FoodHygiene = () => {
                 <h6 className="title-secondary">Kühlraum Lösungen</h6>
                 <h4 className="title">Lebensmittel hygienisch lagern</h4>
                 <p className="description">
-                    CELLTHERM liefert Ihnen Kühlzellen und Tiefkühlzellen „aus einem Guss“. Sämtliche Bestandteile
+                    Gebo Shop liefert Ihnen Kühlzellen und Tiefkühlzellen „aus einem Guss“. Sämtliche Bestandteile
                     unserer Zellen sind optimal aufeinander abgestimmt.
                 </p>
             </FramerMotionAnimation>
@@ -21,7 +21,7 @@ const FoodHygiene = () => {
             <FramerMotionAnimation className="grid-wrapper bg-gray md:flex">
                 <Image src={fridge} alt="Hygiene" className="main-image" />
                 <div className="content-wrapper">
-                    <h5 className="content-title font-semibold">Kühlzelle Standard Celltherm</h5>
+                    <h5 className="content-title font-semibold">Kühlzelle Standard</h5>
                     <div className="points-wrapper flex flex-col">
                         { points.map((item, index) => (
                             <p className="point-wrapper flex" key={index}>
@@ -56,7 +56,7 @@ const FoodHygiene = () => {
 
 const points = [
     {
-        text: 'Celltherm Qualitätskühlzellen aus Deutschland mit der korrekten Isolierdämmung von Isolierdicke 100 mm bis 200 mm für den Schweizer Markt.'
+        text: 'Qualitätskühlzellen aus Deutschland mit der korrekten Isolierdämmung von Isolierdicke 100 mm bis 200 mm für den Schweizer Markt.'
     },
     {
         text: 'Preiswerte Standardmasse oder individuell nach Kundenwunsch. Verschieden Bodenausführungen in Kunststoff, Celastik oder Chromstahl.'
