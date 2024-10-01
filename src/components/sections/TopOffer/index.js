@@ -17,7 +17,7 @@ const TopOffer = () => {
 
                     
                     <h2 className="title">Kühlzelle Nordstream</h2>
-                    <p className="description font-semibold">Nur CHF 8&apos;000.-- exkl. MwSt.</p>
+                    <p className="description font-semibold">Preis auf Anfrage</p>
                     <p className="description font-semibold">Aussenmasse 2&apos;125 x 2&apos;125 x 2&apos;300 mm mit Aggregat und Boden.</p>
                     <p className="description font-semibold">Die technischen Angaben finden Sie im folgenden Abschnitt.</p>
                     <Link href={'#quotation-form'} className="btn-primary">Jetzt anfragen</Link>
